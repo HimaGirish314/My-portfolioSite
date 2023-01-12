@@ -1,0 +1,39 @@
+.projects-section h2{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 900;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.project-1{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: 0.5s ease;
+    
+}
+.project-1:hover{
+    transform: scale(1.1);
+}
+.skills-used ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+.skills-used li{
+    padding: 0 5px;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+    .project-1{
+        width: 90%;
+    }
+}

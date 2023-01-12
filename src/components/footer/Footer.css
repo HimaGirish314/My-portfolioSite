@@ -1,0 +1,32 @@
+.footer-section{
+    padding: 2rem 0;
+    margin: 30px;
+    text-align: center;
+}
+.footer-link{
+    color: var(--clr-primary);
+    font-size: 1.2rem;
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+}
+.footer-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--clr-primary);
+    transform-origin: bottom right;
+    transition: transform 0.28s ease-out;
+}
+.footer-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.git-logo{
+    font-size: 2rem;
+    color: var(--clr-primary);
+}
