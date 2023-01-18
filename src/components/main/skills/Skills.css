@@ -24,22 +24,47 @@
     background-color: var(--clr-bg-alt);
     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 15%);
     transition: 0.2s ease;
+    cursor: pointer;
 }
 .list-item:hover{
     transform: scale(1.1);
     background-color: rgb(227, 221, 221);
     text-transform: uppercase;
 }
+@media (min-width:768px) and (max-width:992px){
+    .skills-section h2{
+        margin-bottom: 18px;
+        font-size: 1.9rem;
+    }
+    .skills__list{
+        width: 65%;
+    }
+    .list-item{
+        font-size: .9rem;
+    }
+}
 
-@media screen and (max-width:600px) {
+@media (min-width:600px) and (max-width:768px){
     .skills-section h2{
         margin-bottom: 18px;
         font-size: 1.8rem;
     }
     .skills__list{
-        width: 80%;
+        width: 75%;
     }
     .list-item{
-        font-size: .9rem;
+        font-size: .8rem;
+    }
+}
+@media (min-width:480px) and (max-width:600px) {
+    .skills-section h2{
+        margin-bottom: 18px;
+        font-size: 1.7rem;
+    }
+    .skills__list{
+        width: 90%;
+    }
+    .list-item{
+        font-size: .7rem;
     }
 }

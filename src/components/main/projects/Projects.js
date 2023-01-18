@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css';
-import {BsGithub} from 'react-icons/bs';
+import {BsGithub,BsCart4,BsBoxArrowUpRight} from 'react-icons/bs';
 
 const Projects = () => {
   return (
@@ -8,16 +8,20 @@ const Projects = () => {
       <h2>PROJECTS</h2> 
       <div className="projects">
         <div className="project-1">
-          <h3>Country-Details</h3>
-          <p>This Project which helps user to know the every Country in detail.</p>
+          <h3>SHOPPING_KART</h3>
+          <span><BsCart4 /></span>
           <div className="skills-used">
             <ul>
               <li>React JS</li>
               <li>JavaScript</li>
               <li>CSS</li>
+              <li>ContextAPI</li>
             </ul>
           </div>
-          <a href="https://github.com/HimaGirish314/my-world" className='git-logo'><BsGithub /></a>
+          <div className="logo">
+            <a href="https://github.com/HimaGirish314/E-Kart" target="_blank" rel='noreferrer' className='git-logo'><BsGithub /></a>
+            <a href="https://ezy-kart.netlify.app/" rel="noreferrer" target="_blank" className='arrow-logo'><BsBoxArrowUpRight /></a>
+          </div>
         </div>
       </div>
     </section>
