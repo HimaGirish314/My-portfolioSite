@@ -41,7 +41,7 @@
         font-size: 0.8rem;
     }
 }
-@media (min-width:480px) and (max-width:600px) {
+@media (min-width:400px) and (max-width:600px) {
     .contact-section h2{
         font-size: 1.7rem;
     }
