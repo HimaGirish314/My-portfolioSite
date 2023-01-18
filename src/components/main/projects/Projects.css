@@ -89,7 +89,7 @@
         padding: 0;
     }
 }
-@media (min-width:400px) and (max-width:600px) {
+@media (min-width:380px) and (max-width:600px) {
     .project-1{
         width: 90%;
     }

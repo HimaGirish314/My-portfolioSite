@@ -67,7 +67,7 @@
     transform-origin: bottom left;
 }
 
-@media (min-width:400px) and (max-width:600px){
+@media (min-width:380px) and (max-width:600px){
     .navbar{
      flex-direction: column;
      border-bottom: 3px solid var(--clr-primary);
