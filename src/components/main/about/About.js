@@ -5,12 +5,11 @@ const About = () => {
   return (
     <div className='about-center'>
         <h1>Hi, I am <span className="about__name">HimaGirish.</span></h1>
-        <h2> A Front End Engineer</h2>
-        <p className='my-info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum optio dolore reiciendis ipsa accusamus voluptatum quibusdam? Fuga vel amet nesciunt, dolorem labore illo incidunt modi aspernatur earum est eum sed esse laborum animi consequatur cum sequi fugiat! </p>
+        <h2>Front End Developer</h2>
+        <p className='my-info'>Hi, I am Seeking a role as a front-end developer (but want to be full-stack one day    ). so I
+am passionate about taking risks and solving them by communicating and sharing experience and knowledge.I've been learning web development since a year, and I am loving the process. I have learnt and grown quite a lot in this learning process.</p>
         <div>
-          <a href=" ">
-            <span typeof='button' className="resume">resume</span>
-            </a>
+          <a href="Himagirish.pdf"  className="resume" download>resume</a>
         </div>
     </div>
   )
